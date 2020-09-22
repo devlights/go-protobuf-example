@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package main;
+option go_package = "internal/pb";
+
+message person {
+    string name = 1;
+    int32 age = 2;
+}
